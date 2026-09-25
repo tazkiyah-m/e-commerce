@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  
+  /* Apple-inspired monochrome palette */
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary-container: #f5f5f7;
+  --color-primary-fixed-dim: #0071e3;
+  --color-on-tertiary: #ffffff;
+  --color-secondary: #86868b;
+  --color-tertiary-container: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-inverse-primary: #2997ff;
+  --color-tertiary-fixed-dim: #2997ff;
+  --color-surface-container-high: #e8e8ed;
+  --color-on-secondary: #ffffff;
+  --color-surface-tint: #1d1d1f;
+  --color-outline-variant: #d2d2d7;
+  --color-on-primary-fixed: #ffffff;
+  --color-on-tertiary-fixed-variant: #1d1d1f;
+  --color-surface-container-highest: #e8e8ed;
+  --color-on-primary: #ffffff;
+  --color-outline: #d2d2d7;
+  --color-on-primary-container: #1d1d1f;
+  --color-on-background: #1d1d1f;
+  --color-background: #ffffff;
+  --color-on-error: #ffffff;
+  --color-on-surface-variant: #86868b;
+  --color-on-secondary-container: #1d1d1f;
+  --color-surface-dim: #f5f5f7;
+  --color-inverse-on-surface: #f5f5f7;
+  --color-primary: #1d1d1f;
+  --color-surface-bright: #ffffff;
+  --color-primary-container: #f5f5f7;
+  --color-inverse-surface: #1d1d1f;
+  --color-surface-container-low: #f5f5f7;
+  --color-surface-container: #f5f5f7;
+  --color-on-tertiary-fixed: #1d1d1f;
+  --color-error-container: #ffdad6;
+  --color-on-surface: #1d1d1f;
+  --color-tertiary: #0071e3;
+  --color-on-secondary-fixed-variant: #6e6e73;
+  --color-secondary-fixed-dim: #d2d2d7;
+  --color-surface-variant: #f5f5f7;
+  --color-on-error-container: #410002;
+  --color-error: #ba1a1a;
+  --color-secondary-fixed: #e8e8ed;
+  --color-on-secondary-fixed: #1d1d1f;
+  --color-on-tertiary-container: #1d1d1f;
+  --color-primary-fixed: #0071e3;
+  --color-tertiary-fixed: #f5f5f7;
+  --color-on-primary-fixed-variant: #1d1d1f;
+
+  --spacing-gutter-mobile: 16px;
+  --spacing-unit: 8px;
+  --spacing-margin-desktop: 48px;
+  --spacing-container-max: 1024px;
+  --spacing-gutter-desktop: 24px;
+  --spacing-margin-mobile: 20px;
+  
+  --font-headline-md: "Inter", sans-serif;
+  --font-label-sm: "Inter", sans-serif;
+  --font-display-lg: "Inter", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-display-lg-mobile: "Inter", sans-serif;
+  --font-label-md: "Inter", sans-serif;
+  --font-headline-sm: "Inter", sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+    background-color: #ffffff;
+    color: #1d1d1f;
+    font-family: var(--font-body-md);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover,
+.group:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+/* Apple-style fade-in on scroll */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* AnimeNavBar shine effect */
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Hide Next.js Dev Indicator Floating Badges */
+[data-nextjs-toast],
+nextjs-portal,
+div[class*="nextjs-portal"],
+button[aria-label="Next.js Dev Tools"],
+div[data-nextjs-dialog-overlay] {
+  display: none !important;
+}

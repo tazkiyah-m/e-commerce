@@ -1,0 +1,246 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","secondary-container":"#dfe0e0","primary-fixed-dim":"#c6c6c6","on-tertiary":"#ffffff","secondary":"#5d5f5f","tertiary-container":"#291800","surface":"#f9f9fb","inverse-primary":"#c6c6c6","tertiary-fixed-dim":"#ffb955","surface-container-high":"#e8e8ea","on-secondary":"#ffffff","surface-tint":"#5e5e5e","outline-variant":"#cfc4c5","on-primary-fixed":"#1b1b1b","on-tertiary-fixed-variant":"#633f00","surface-container-highest":"#e2e2e4","on-primary":"#ffffff","outline":"#7e7576","on-primary-container":"#848484","on-background":"#1a1c1d","background":"#f9f9fb","on-error":"#ffffff","on-surface-variant":"#4c4546","on-secondary-container":"#616363","surface-dim":"#d9dadc","inverse-on-surface":"#f0f0f2","primary":"#000000","surface-bright":"#f9f9fb","primary-container":"#1b1b1b","inverse-surface":"#2f3132","surface-container-low":"#f3f3f5","surface-container":"#eeeef0","on-tertiary-fixed":"#291800","error-container":"#ffdad6","on-surface":"#1a1c1d","tertiary":"#000000","on-secondary-fixed-variant":"#454747","secondary-fixed-dim":"#c6c6c7","surface-variant":"#e2e2e4","on-error-container":"#93000a","error":"#ba1a1a","secondary-fixed":"#e2e2e2","on-secondary-fixed":"#1a1c1c","on-tertiary-container":"#b57700","primary-fixed":"#e2e2e2","tertiary-fixed":"#ffddb4","on-primary-fixed-variant":"#474747"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"16px","unit":"8px","margin-desktop":"48px","container-max":"1200px","gutter-desktop":"24px","margin-mobile":"20px"},"fontFamily":{"headline-md":["Inter"],"label-sm":["Inter"],"display-lg":["Inter"],"body-lg":["Inter"],"body-md":["Inter"],"display-lg-mobile":["Inter"],"label-md":["Inter"],"headline-sm":["Inter"]},"fontSize":{"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0","fontWeight":"400"}],"body-md":["16px",{"lineHeight":"24px","letterSpacing":"0","fontWeight":"400"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-container-max mx-auto px-gutter-desktop flex items-center justify-between gap-gutter-desktop"><div class="flex items-center gap-4 min-w-fit"><img alt="GGS_WELL Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMlEZYdbrVUFEUqI9DyxudhMy5Zn3nB2EsSkyVaDzOpYu0Tl2mWro5wBjhP_ZiwHAhR6_N7MTwIL1ez9R8rPkD5IcW-z-l6Fyg-CaMKCJTTmWOoSkQitrZHKlJg6q2nyD6FOMC7W0fDz5B35WZANUKwLxaSckO2SC9FKe_q8rSb70oG_EWDAjv62cu-AgzrITLuJcTORhYanWMP9GyxIJq56GthkWGQjqcu3v3IUQEtmQtyCv9Skst"><span class="font-headline-sm text-headline-sm tracking-tight">GGS_WELL</span></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-all text-primary font-bold" data-path="home" href="#">Home</a><a class="text-label-md text-on-surface-variant hover:text-primary transition-all" data-path="menu" href="#">Menu</a><a class="text-label-md text-on-surface-variant hover:text-primary transition-all" data-path="about-us" href="#">About Us</a><a class="text-label-md text-on-surface-variant hover:text-primary transition-all" data-path="location" href="#">Location</a><a class="text-label-md text-on-surface-variant hover:text-primary transition-all" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-6"><div class="relative cursor-pointer"><span class="material-symbols-outlined text-on-surface">shopping_cart</span><span class="absolute -top-2 -right-2 bg-primary text-on-primary text-[10px] font-bold w-5 h-5 flex items-center justify-center rounded-full">2</span></div><img alt="Profile" class="w-9 h-9 rounded-full object-cover ring-2 ring-surface-container-high cursor-pointer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMN_3lPQN0WsWqsfimJD2BTaUzr43jaViI3KrAgqT96FlTU3O_oBbZ--cSP7AGKxp_2GiHknzHBlOEVZvgLA82I_u7Rx-a807BuEpIbTEgai_y7ISIH8XsFdyFW7XPnJRJExufSTCXYnbaXGp9PlEPGQEb7LLqDl6YeoMsrQi2X07FuiipkpHob2KN_RXa7bYNxND5C4M0QCKMPlDrQ8DICroKvmJo6S7TQe4cpucbD5u9BT7jJJEO"></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Status Progress Bar -->
+<div class="w-full max-w-container-max mx-auto px-gutter-desktop py-8">
+<div class="flex items-center justify-center gap-4">
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md">1</span>
+<span class="font-label-md text-on-surface">Keranjang</span>
+</div>
+<div class="h-px w-12 bg-outline-variant"></div>
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md">2</span>
+<span class="font-label-md text-on-surface font-bold">Pembayaran</span>
+</div>
+<div class="h-px w-12 bg-outline-variant"></div>
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-label-md">3</span>
+<span class="font-label-md text-on-surface-variant">Selesai</span>
+</div>
+</div>
+</div>
+<!-- Main Checkout Grid -->
+<div class="max-w-container-max mx-auto px-gutter-desktop pb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- Left Column: Shipping Address & Notes -->
+<div class="lg:col-span-4 flex flex-col gap-8">
+<section class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<h2 class="font-headline-sm text-headline-sm tracking-tight">Alamat Pengiriman</h2>
+</div>
+<div class="space-y-6">
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-on-surface-variant uppercase tracking-wider">Nama Lengkap</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface border border-outline-variant focus:border-primary focus:outline-none transition-all text-body-md" placeholder="Budi Santoso" type="text">
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-on-surface-variant uppercase tracking-wider">Nomor Telepon</label>
+<div class="flex">
+<span class="inline-flex items-center px-4 rounded-l-lg border border-r-0 border-outline-variant bg-surface-container text-on-surface-variant font-label-md">+62</span>
+<input class="w-full px-4 py-3 rounded-r-lg bg-surface border border-outline-variant focus:border-primary focus:outline-none transition-all text-body-md" placeholder="812 3456 7890" type="tel">
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-on-surface-variant uppercase tracking-wider">Alamat Lengkap</label>
+<textarea class="w-full px-4 py-3 rounded-lg bg-surface border border-outline-variant focus:border-primary focus:outline-none transition-all text-body-md resize-none" placeholder="Jl. Sudirman No. 12, Karet Tengsin, Tanah Abang, Jakarta Pusat" rows="3"></textarea>
+</div>
+<div class="flex flex-col gap-2 pt-4">
+<label class="font-label-sm text-on-surface-variant uppercase tracking-wider">Catatan untuk Penjual</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface border border-outline-variant focus:border-primary focus:outline-none transition-all text-body-md" placeholder="Contoh: Titip di lobby, pedas sedang..." type="text">
+</div>
+</div>
+</section>
+</div>
+<!-- Middle Column: Order Summary & Delivery -->
+<div class="lg:col-span-4 flex flex-col gap-8">
+<section class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary">local_shipping</span>
+<h2 class="font-headline-sm text-headline-sm tracking-tight">Opsi Pengiriman</h2>
+</div>
+<div class="space-y-4">
+<label class="relative flex items-center p-4 rounded-lg border border-primary bg-primary/5 cursor-pointer group transition-all">
+<input checked="" class="hidden" name="delivery" type="radio">
+<div class="flex-1">
+<div class="font-label-md text-on-surface">Pengiriman Instan</div>
+<div class="text-label-sm text-on-surface-variant">Tiba dalam 15-30 menit</div>
+</div>
+<div class="font-label-md text-primary">Rp 15.000</div>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+</div>
+</label>
+<label class="relative flex items-center p-4 rounded-lg border border-outline-variant hover:border-primary/50 cursor-pointer group transition-all">
+<input class="hidden" name="delivery" type="radio">
+<div class="flex-1">
+<div class="font-label-md text-on-surface">Standar</div>
+<div class="text-label-sm text-on-surface-variant">Tiba dalam 45-60 menit</div>
+</div>
+<div class="font-label-md text-on-surface-variant">Rp 8.000</div>
+</label>
+</div>
+</section>
+<section class="bg-surface-container-lowest p-8 rounded-xl shadow-sm">
+<div class="flex items-center gap-3 mb-8">
+<span class="material-symbols-outlined text-primary">shopping_bag</span>
+<h2 class="font-headline-sm text-headline-sm tracking-tight">Ringkasan Pesanan</h2>
+</div>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-4">
+<img class="w-16 h-16 rounded-lg object-cover" data-alt="Close up photography of a premium Wagyu Beef Burger with melted truffle cheese and caramelized onions, soft focus background, gourmet lighting, ultra-high resolution" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB56K1h7DIdcTM03RtklMV77Sd-z_jexhHbZWwCBglMYyTyQt7Kn1nOqxWfmPKYihPGHkVtoHOcJWcgiUG9V6tWPch2XySXpcWH-glt-f2ggA6HanhVDiAlY62UWbwO4kH1UcZS_6Vz6ZS7W3NJIFrbLdm2_75uyXRZXOddg_2WivcGCeqMBOu5m5NW1ttnNT7_O6_MFu7TGfqr2I5bEeTMNVNgrRxDNFmadn766CrnASTkS6YeSYFd">
+<div class="flex-1 min-w-0">
+<h4 class="font-label-md text-on-surface truncate">Truffle Wagyu Burger</h4>
+<p class="text-label-sm text-on-surface-variant">1x Unit</p>
+</div>
+<span class="font-label-md text-on-surface">Rp 125.000</span>
+</div>
+<div class="flex items-center gap-4">
+<img class="w-16 h-16 rounded-lg object-cover" data-alt="Artisanal iced coffee with layered creamy foam in a tall minimalist glass, soft natural light, clean aesthetics, wooden table texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZ-6uTG0s1L48yWDuDUTnsPUG3qoFWsSn9IHiuvAlgmU_EOHbjMFNqpZQ34P_VVhb5XWgG-3HOBK5WY4dyILsSFo7KGW_tQHNv2q40OJQFMtSj6yWY6stK2rIZ6cGqqPtVQLe-jqO3FqxMErcXtHojkmg4BUAJtGbtQI0jqLoBRAp59G7gPsWJpBQikgiqWcoLpTwfaAPFjN4i32m_f0w7m9cnhWCs2agNkORiXnKR6XlmTN3N0FvW">
+<div class="flex-1 min-w-0">
+<h4 class="font-label-md text-on-surface truncate">Signature Cold Brew</h4>
+<p class="text-label-sm text-on-surface-variant">1x Unit</p>
+</div>
+<span class="font-label-md text-on-surface">Rp 45.000</span>
+</div>
+</div>
+<div class="pt-6 border-t border-outline-variant space-y-3">
+<div class="flex justify-between text-label-md text-on-surface-variant">
+<span class="">Subtotal</span>
+<span class="">Rp 170.000</span>
+</div>
+<div class="flex justify-between text-label-md text-on-surface-variant">
+<span class="">Ongkos Kirim</span>
+<span class="">Rp 15.000</span>
+</div>
+<div class="flex justify-between text-headline-sm font-bold text-on-surface pt-2">
+<span class="">Total Tagihan</span>
+<span class="text-primary">Rp 185.000</span>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Payment Gateway -->
+<div class="lg:col-span-4">
+<div class="sticky top-28 bg-surface-container-lowest rounded-2xl shadow-xl overflow-hidden">
+<div class="bg-primary p-6 text-on-primary">
+<h2 class="font-headline-sm text-headline-sm mb-1">Pilih Pembayaran</h2>
+<p class="text-label-sm opacity-80 uppercase tracking-widest">Transaksi Aman &amp; Terenkripsi</p>
+</div>
+<div class="p-6 space-y-8">
+<!-- Bank Transfer -->
+<div>
+<h3 class="font-label-sm text-on-surface-variant uppercase tracking-wider mb-4">Virtual Account</h3>
+<div class="grid grid-cols-4 gap-3">
+<button class="payment-method-btn p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex flex-col items-center gap-2 group" data-method="BCA">
+<div class="h-6 w-10 bg-surface flex items-center justify-center font-bold text-[10px] text-[#0066AE]">BCA</div>
+<span class="text-[10px] font-label-sm text-on-surface-variant group-hover:text-primary">BCA</span>
+</button>
+<button class="payment-method-btn p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex flex-col items-center gap-2 group" data-method="Mandiri">
+<div class="h-6 w-10 bg-surface flex items-center justify-center font-bold text-[10px] text-[#F7931E]">MDR</div>
+<span class="text-[10px] font-label-sm text-on-surface-variant group-hover:text-primary">Mandiri</span>
+</button>
+<button class="payment-method-btn p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex flex-col items-center gap-2 group" data-method="BNI">
+<div class="h-6 w-10 bg-surface flex items-center justify-center font-bold text-[10px] text-[#FF6600]">BNI</div>
+<span class="text-[10px] font-label-sm text-on-surface-variant group-hover:text-primary">BNI</span>
+</button>
+<button class="payment-method-btn p-3 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex flex-col items-center gap-2 group" data-method="BRI">
+<div class="h-6 w-10 bg-surface flex items-center justify-center font-bold text-[10px] text-[#00529C]">BRI</div>
+<span class="text-[10px] font-label-sm text-on-surface-variant group-hover:text-primary">BRI</span>
+</button>
+</div>
+</div>
+<!-- E-Wallets -->
+<div>
+<h3 class="font-label-sm text-on-surface-variant uppercase tracking-wider mb-4">E-Wallet &amp; QRIS</h3>
+<div class="space-y-3">
+<button class="payment-method-btn w-full p-4 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex items-center gap-4 group" data-method="GoPay">
+<span class="material-symbols-outlined text-[#00AED6]">account_balance_wallet</span>
+<span class="font-label-md text-on-surface flex-1 text-left">GoPay</span>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary">chevron_right</span>
+</button>
+<button class="payment-method-btn w-full p-4 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex items-center gap-4 group" data-method="OVO">
+<span class="material-symbols-outlined text-[#4C2A86]">wallet</span>
+<span class="font-label-md text-on-surface flex-1 text-left">OVO</span>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary">chevron_right</span>
+</button>
+<button class="payment-method-btn w-full p-4 rounded-xl border border-outline-variant hover:border-primary hover:bg-surface-container transition-all flex items-center gap-4 group" data-method="QRIS">
+<span class="material-symbols-outlined text-primary">qr_code_2</span>
+<span class="font-label-md text-on-surface flex-1 text-left">QRIS (All Banks)</span>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="pt-6">
+<button class="w-full bg-primary text-on-primary py-4 rounded-full font-label-md flex items-center justify-center gap-2 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-lg shadow-primary/20" id="payButton">
+<span class="">Bayar Sekarang</span>
+<span class="material-symbols-outlined text-[20px]">lock</span>
+</button>
+<div class="mt-4 flex items-center justify-center gap-2 text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span class="">Enkripsi 256-bit SSL aktif</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Success Modal Mockup -->
+<div class="fixed inset-0 z-[100] flex items-center justify-center px-4 pointer-events-none opacity-0 transition-opacity duration-300" id="successModal">
+<div class="absolute inset-0 bg-on-background/40 backdrop-blur-sm"></div>
+<div class="relative bg-surface-container-lowest w-full max-w-md p-10 rounded-3xl shadow-2xl text-center transform scale-90 transition-transform duration-300">
+<div class="w-20 h-20 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-[48px]">check_circle</span>
+</div>
+<h2 class="font-display-lg text-headline-md mb-2">Pesanan Diterima!</h2>
+<p class="text-body-md text-on-surface-variant mb-8">Terima kasih atas pesanan Anda. Kami sedang memproses hidangan lezat untuk Anda.</p>
+<button class="w-full bg-primary text-on-primary py-4 rounded-full font-label-md hover:opacity-90 transition-opacity" onclick="window.location.reload()">
+        Lihat Status Pesanan
+      </button>
+</div>
+</div>
+<script>
+    // Simple interactivity for payment method selection
+    const buttons = document.querySelectorAll('.payment-method-btn');
+    const payButton = document.getElementById('payButton');
+    const successModal = document.getElementById('successModal');
+    let selectedMethod = null;
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => {
+          b.classList.remove('border-primary', 'bg-surface-container');
+          b.classList.add('border-outline-variant');
+        });
+        btn.classList.remove('border-outline-variant');
+        btn.classList.add('border-primary', 'bg-surface-container');
+        selectedMethod = btn.getAttribute('data-method');
+      });
+    });
+
+    payButton.addEventListener('click', () => {
+      if (!selectedMethod) {
+        alert('Silakan pilih metode pembayaran terlebih dahulu.');
+        return;
+      }
+      
+      payButton.innerHTML = `
+        <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        Memproses...
+      `;
+
+      setTimeout(() => {
+        successModal.classList.remove('pointer-events-none', 'opacity-0');
+        successModal.querySelector('div:last-child').classList.remove('scale-90');
+        successModal.querySelector('div:last-child').classList.add('scale-100');
+      }, 2000);
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-low py-16 mt-margin-desktop"><div class="max-w-container-max mx-auto px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12"><div class="col-span-1"><div class="flex items-center gap-3 mb-6"><img alt="Logo" class="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMlEZYdbrVUFEUqI9DyxudhMy5Zn3nB2EsSkyVaDzOpYu0Tl2mWro5wBjhP_ZiwHAhR6_N7MTwIL1ez9R8rPkD5IcW-z-l6Fyg-CaMKCJTTmWOoSkQitrZHKlJg6q2nyD6FOMC7W0fDz5B35WZANUKwLxaSckO2SC9FKe_q8rSb70oG_EWDAjv62cu-AgzrITLuJcTORhYanWMP9GyxIJq56GthkWGQjqcu3v3IUQEtmQtyCv9Skst"> <span class="font-headline-sm text-headline-sm">GGS_WELL</span></div><p class="text-body-md text-on-surface-variant">Savor the artistry of premium ingredients delivered straight to your door.</p></div><div><h4 class="font-headline-sm text-label-md mb-6 uppercase tracking-wider">Quick Links</h4><ul class="space-y-4 text-on-surface-variant text-label-md"><li class=""><a class="hover:text-primary" href="#">Menu</a></li><li class=""><a class="hover:text-primary" href="#">Our Story</a></li><li class=""><a class="hover:text-primary" href="#">Membership</a></li><li class=""><a class="hover:text-primary" href="#">Terms</a></li></ul></div><div><h4 class="font-headline-sm text-label-md mb-6 uppercase tracking-wider">Contact &amp; Hours</h4><ul class="space-y-4 text-on-surface-variant text-label-md"><li class="">Jam Buka: 10:00 - 22:00</li><li class="">Support: hello@ggswell.com</li><li class="">Tel: +62 21 555 0123</li></ul></div><div><h4 class="font-headline-sm text-label-md mb-6 uppercase tracking-wider">Follow Us</h4><div class="flex gap-4"><a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined text-[20px]">camera</span></a><a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-on-primary transition-all" href="#"><span class="material-symbols-outlined text-[20px]">qr_code_2</span></a></div></div></div><div class="pt-8 border-t border-outline-variant text-center text-on-surface-variant text-label-sm">© 2024 GGS_WELL Gastronomy. All rights reserved.</div></div></footer>
+
+</body></html>
